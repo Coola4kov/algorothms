@@ -41,18 +41,30 @@ def get_leaves_code(tree):
             return leaves
 
 
-if __name__ == '__main__':
+def reverse_leaves(leaves):
+    for i in leaves:
+        leaves[i] = leaves[i][::-1]
+    return leaves
+
+
+def hoffman(elements):
     nodes = []
-    sum_ = 0
-    elements = {'a1': 0.31, 'a2': 0.26, 'a3': 0.24, 'a4': 0.18, 'a5': 0.01}
     for i in elements:
         nodes.append(Node(elements[i], i))
     while len(nodes) != 1:
         node_sort(nodes)
         nodes.append(nodes.pop() + nodes.pop())
-    leaves = get_leaves_code(nodes[0])
+    return reverse_leaves(get_leaves_code(nodes[0]))
+
+
+if __name__ == '__main__':
+    # nodes = []
+    sum_ = 0
+    elements_ = {'a1': 0.31, 'a2': 0.26, 'a3': 0.24, 'a4': 0.18, 'a5': 0.01}
+    leaves = hoffman(elements_)
+    print(leaves)
     for leaf in leaves:
-        sum_ += len(leaves[leaf]) * elements[leaf]
+        sum_ += len(leaves[leaf]) * elements_[leaf]
     print(sum_)
 
 
