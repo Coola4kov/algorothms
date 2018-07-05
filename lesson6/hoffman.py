@@ -4,8 +4,6 @@ class Node:
         self.name = name
         self.left = left
         self.right = right
-        self.l_visit = False
-        self.r_visit = False
 
     def weight_return(self):
         return self.weight
@@ -28,13 +26,15 @@ def add_path_to_leaves(leaves, number):
 
 def get_leaves_code(tree):
     leaves = {}
+    l_visit = False
+    r_visit = False
     while True:
-        if tree.left and not tree.l_visit:
+        if tree.left and not l_visit:
             leaves.update(add_path_to_leaves(get_leaves_code(tree.left), '0'))
-            tree.l_visit = True
-        elif tree.right and not tree.r_visit:
+            l_visit = True
+        elif tree.right and not r_visit:
             leaves.update(add_path_to_leaves(get_leaves_code(tree.right), '1'))
-            tree.r_visit = True
+            r_visit = True
         else:
             if tree.name:
                 leaves[tree.name] = ''
