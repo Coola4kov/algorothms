@@ -58,7 +58,6 @@ def hoffman(elements):
 
 
 if __name__ == '__main__':
-    # nodes = []
     sum_ = 0
     elements_ = {'a1': 0.31, 'a2': 0.26, 'a3': 0.24, 'a4': 0.18, 'a5': 0.01}
     leaves = hoffman(elements_)
