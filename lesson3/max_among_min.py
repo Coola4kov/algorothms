@@ -8,3 +8,11 @@ digit_ind = rand_array.index(digit)
 print('В заданном массиве:\n{}\n'
       'Максимальное из минимальных чисел '
       '{} распологается на позиции {}'.format(rand_array, digit, digit_ind))
+
+# n = 24
+# rand_array = 280
+# sorted_list = 280
+# digit = 24
+# digit_ind = 24
+
+# total = 632

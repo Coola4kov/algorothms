@@ -14,3 +14,6 @@ else:
     print('{} не високосный год'.format(year))
 
 
+# year = 24
+# leap = 1
+# total = 25

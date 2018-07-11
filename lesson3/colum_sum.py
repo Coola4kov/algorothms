@@ -39,3 +39,11 @@ if __name__ == '__main__':
         for col in row:
             print('{:^3}'.format(col), end='')
         print()
+
+# array = 64
+# array_line = 80 * 3 = 240
+# last_row = 80
+# row = 80
+# col = 24
+
+# total = 488

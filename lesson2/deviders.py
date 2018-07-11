@@ -6,3 +6,9 @@ def get_seq_and_digit():
             return int(seq), int(digit)
         else:
             print('Ошибка ввода данных!')
+
+# seq = бесконечно большое число
+# digit = 39 бит
+
+# total = бесконечно большое
+

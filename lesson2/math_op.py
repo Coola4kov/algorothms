@@ -24,3 +24,10 @@ while True:
     else:
         print('{} {} {} = {}'.format(a, operator, b, operands[operator](a, b)))
 
+# operands = 248
+# operator = 39
+# a = 24
+# b = 24
+# allowed_operands = 72
+
+# total = 407

@@ -30,3 +30,9 @@ if __name__ == '__main__':
             result['number'] = number
     print('Число {} имеет наибольшую сумму цифр, равную {}'.format(result.get('number'),
                                                                    result.get('sum')))
+
+# digit_flag = 1
+# seq = бесконечно большое, ограниченное памятью пк
+# ...
+
+# total = бесконечно большое, ограниченное памятью пк

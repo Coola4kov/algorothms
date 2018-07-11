@@ -11,3 +11,8 @@ elif b and not k:
 elif k and not b:
     print("y = {}".format(k))
 
+# set_1 = 40  + 8*2 = 56 бита
+# set_2 = 40  + 8*2 = 56 бита
+# b = 24 бита
+# k = 24 бита
+# total = 160 бит

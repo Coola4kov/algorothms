@@ -3,3 +3,5 @@ for num, i in enumerate(range(32, 128)):
         print()
     print(chr(i), end='')
 
+# num, i = 24 + 24 = 58
+# total = 58

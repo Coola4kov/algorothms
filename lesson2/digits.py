@@ -26,6 +26,12 @@ print('В числе {} чётных : '.format(len(even)),
       not_even,
       'чисел')
 
+# digits = бесконечно большое (огранич памятью ПК)
+# even =
+# not_even =
+# digit =
+
+# total = бесконечно большое
 
 
 

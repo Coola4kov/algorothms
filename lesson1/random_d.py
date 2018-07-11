@@ -34,3 +34,12 @@ if __name__ == '__main__':
     rand_range(True)
     rand_range(False, True)
     rand_range(False, False, True)
+
+# type = 57 бита
+# entered_list = 40 + 8 * 2 = 56 бита
+# start_ = 39 бита(максимальное возможное значение)
+# stop_ = 39 бита(максимальное возможное значение)
+# alphabet = 64 бита
+# alph_range = 64 бита (максимальное значение)
+
+# total = 299 бита
